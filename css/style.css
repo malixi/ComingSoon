@@ -9,19 +9,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
     height: 100%;
 
 }
 
 .container h1{
 	font-family: 'Yesteryear', cursive;
-	font-size: 10vh;
+	font-size: 8vh;
 }
 
 .icons{
-	position: fixed;
 	top: 55%;
+	position: absolute;
+	margin: 0 50%;
 }
 
 
@@ -42,4 +42,3 @@ body{
 a:hover{
 	text-decoration: none !important;
 }
-
