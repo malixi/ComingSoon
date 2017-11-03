@@ -19,9 +19,11 @@ body{
 }
 
 .icons{
-	top: 55%;
-	position: absolute;
-	margin: 0 50%;
+	position: fixed;
+	 left: 0;
+	 top: 60%;
+	 width: 100%;
+	 text-align: center;
 }
 
 
@@ -47,4 +49,13 @@ a:hover{
 @font-face {
     font-family: "Yesteryear";
     src:url("../font/yesteryear.ttf");
+}
+
+
+@media (max-width: 575px) {
+
+	.container h1{
+		font-size: 11vh;
+	}
+
 }
