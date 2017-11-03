@@ -14,7 +14,7 @@ body{
 }
 
 .container h1{
-	font-family: 'Yesteryear', cursive;
+	font-family: 'Yesteryear',cursive;
 	font-size: 8vh;
 }
 
@@ -41,4 +41,10 @@ body{
 
 a:hover{
 	text-decoration: none !important;
+}
+
+
+@font-face {
+    font-family: "Yesteryear";
+    src:url("../font/yesteryear.ttf");
 }
