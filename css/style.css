@@ -26,6 +26,12 @@ body{
 	 text-align: center;
 }
 
+.icons .fa{
+	color: black;
+	margin: 0 5px;
+	width: auto;
+}
+
 
 #particles-js{
 	background: #fff;
