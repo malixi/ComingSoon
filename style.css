@@ -10,19 +10,31 @@
                 100% {background-position: 0% 50%;}
             }
 h1 {
-                position: absolute;
-                left: 50%;
-                top: 40%;
-                transform: translateX(-50%) translateY(-50%);
-                color: #fff;
-                text-align: center;
-                font-size: 7em;
-                font-weight: 400;
-                font-family: 'Yesteryear',cursive;
-                text-shadow: 4px 2px 5px black;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+    text-align: center;
+    font-size: 7em;
+    font-weight: 400;
+    font-family: 'Yesteryear',cursive;
+    text-shadow: 4px 2px 5px black;
     }
 
 @font-face {
     font-family: "Yesteryear";
     src:url("font/yesteryear.ttf");
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 2em;
+    }
 }
