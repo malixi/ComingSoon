@@ -30,11 +30,15 @@ h1 {
 @media only screen and (max-width: 768px) {
     h1 {
         font-size: 3em;
+        text-shadow: 4px 2px 5px black;
+
     }
 }
 
 @media only screen and (max-width: 375px) {
     h1 {
         font-size: 2em;
+        text-shadow: 4px 2px 5px black;
+
     }
 }
